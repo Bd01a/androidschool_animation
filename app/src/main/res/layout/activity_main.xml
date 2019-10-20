@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_drawable_animation"
+        android:layout_margin="@dimen/margin_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/drawable_animation"
+         />
+    <Button
+        android:id="@+id/btn_value_animation"
+        android:layout_margin="@dimen/margin_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value_animation"
+         />
+    <Button
+        android:id="@+id/btn_obj_animation"
+        android:layout_margin="@dimen/margin_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/object_animation"
+         />
+    <Button
+        android:id="@+id/btn_view_animation"
+        android:layout_margin="@dimen/margin_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_animation"
+         />
+    <Button
+        android:id="@+id/btn_custom_view_animation"
+        android:layout_margin="@dimen/margin_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_view_animation"
+         />
+
+</LinearLayout>
